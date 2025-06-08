@@ -1,0 +1,61 @@
+version: "3.9"
+services:
+  db:
+    build: ./db
+    container_name: entrevista_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: entrevista
+      POSTGRES_DB: development
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: entrevista_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+
+  app:
+    build: 
+      context: .
+      dockerfile: project/Dockerfile
+    container_name: entrevista_app
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./project:/app
+    depends_on:
+      - db
+      - redis
+    environment:
+      - DATABASE_URL=postgres://postgres:entrevista@db:5432/development
+      - REDIS_URL=redis://redis:6379/0
+
+  sidekiq:
+    build: 
+      context: .
+      dockerfile: project/Dockerfile
+    container_name: entrevista_sidekiq
+    volumes:
+      - ./project:/app
+    working_dir: /app
+    command: bundle exec sidekiq -C config/sidekiq.yml 
+    depends_on:
+      - redis
+      - app
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+
+volumes:
+  redis_data:
+  postgres_data:
+
