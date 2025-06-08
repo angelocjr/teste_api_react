@@ -1,0 +1,9 @@
+<div class='flex-center'>
+  <nav> 
+    <h2 class="h2-delete"><%='Deletar dinamica: '%> <%=@dynamic.name%></h2>
+    <div class='flex-center'> 
+      <%= button_to 'Sim', web_test_welcome_delete_dynamic_path(@dynamic.id), method: :delete, class: 'button-delete' %> 
+      <%= button_to 'Não', web_test_welcome_path , method: :get, class: 'button-delete' %>
+    </div>
+  </nav>
+</div>

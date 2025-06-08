@@ -1,0 +1,149 @@
+.container-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 2%;
+  background-color: #ffebbf;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-body h1 {
+  background: #f59330;
+  color: #ffebbf;
+  padding: 10px;
+  width: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.table-body {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f59330;
+}
+
+.table-body tbody {
+  background-color: #f59330;
+  color: #ffebbf;
+  text-align: left;
+}
+
+.table-body th {
+  padding: 14px 20px;
+}
+
+.table-body tbody tr {
+  border-top: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.flex-center {
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.table-body span {
+  margin:7px;
+  height: 30px;
+  width: 30px;
+  background: #b22148;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.table-body span:hover {
+  background: #85a29e;
+}
+
+.table-body a{
+  padding: 6px;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-aleat {
+  padding-top: 10px;
+  margin-top: 10px;
+  height: 30px;
+  width: auto;
+  background: #b22148;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.button-aleat a{
+  padding: 20px;
+  color: #ffebbf;
+  text-decoration: none;
+}
+
+.button-aleat:hover {
+  background: #85a29e;
+}
+
+.formulary {
+}
+
+.formulary input {
+  border-color: #f59330;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  color: #85a29e;
+  transition: all 0.3s ease;
+}
+
+.formulary textarea {
+  border-color: #f59330;
+  border-radius: 5px;
+  width: 100%;
+  height: 80px;
+  color: #85a29e;
+  transition: all 0.3s ease;
+}
+
+.formulary-button {
+  padding: 5px;
+  background-color: #f59330;
+  color: #ffebbf !important;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto !important;
+  height: 30px;
+  transition: all 0.3s ease;
+}
+
+.formulary-button:hover {
+  background-color: #f0d442 !important;
+}
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */

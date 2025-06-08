@@ -1,0 +1,315 @@
+# Logfile created on 2025-04-08 05:20:16 +0000 by logger.rb/v1.7.0
+D, [2025-04-08T05:20:16.304990 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:16.343479 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:19.569584 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 05:20:19 +0000
+D, [2025-04-08T05:20:19.574090 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:19.574547 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:22.921510 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.111 at 2025-04-08 05:20:22 +0000
+D, [2025-04-08T05:20:22.925600 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:22.925962 #1] DEBUG -- : Acesso create page
+I, [2025-04-08T05:20:26.935728 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.111 at 2025-04-08 05:20:26 +0000
+D, [2025-04-08T05:20:26.943186 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:26.943545 #1] DEBUG -- : Acesso create page
+I, [2025-04-08T05:20:34.515728 #1]  INFO -- : Started POST "/web_test/welcome/create_dynamic" for 192.168.1.111 at 2025-04-08 05:20:34 +0000
+D, [2025-04-08T05:20:34.533342 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:34.533561 #1] DEBUG -- : Começo do fluxo do create_dynamic
+D, [2025-04-08T05:20:34.533797 #1] DEBUG -- : Parametros tratados para criar usuário: {:name=>"primeira dinamica fdg", :description=>"wqeqwe", :note=>"3", :comment=>"wqeqewwq"}
+D, [2025-04-08T05:20:34.551170 #1] DEBUG -- : Verificando se o nome existe: 
+D, [2025-04-08T05:20:34.588134 #1] DEBUG -- : Dinamica id criada com sucesso: 8
+D, [2025-04-08T05:20:34.618236 #1] DEBUG -- : Review criada para dinamica id:8, redirecionando welcome_path
+D, [2025-04-08T05:20:34.618276 #1] DEBUG -- : Fim do fluxo do create_dynamic
+I, [2025-04-08T05:20:34.623879 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 05:20:34 +0000
+D, [2025-04-08T05:20:34.627537 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:34.627767 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:39.799252 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 05:20:39 +0000
+D, [2025-04-08T05:20:39.804332 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:39.808137 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 8
+I, [2025-04-08T05:20:39.812691 #1]  INFO -- : Started GET "/web_test/welcome.8" for 192.168.1.111 at 2025-04-08 05:20:39 +0000
+D, [2025-04-08T05:20:39.816032 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:39.817925 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:42.423191 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 05:20:42 +0000
+D, [2025-04-08T05:20:42.427250 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:42.432635 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 6
+I, [2025-04-08T05:20:42.437556 #1]  INFO -- : Started GET "/web_test/welcome.6" for 192.168.1.111 at 2025-04-08 05:20:42 +0000
+D, [2025-04-08T05:20:42.443582 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:42.446855 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:43.313629 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 05:20:43 +0000
+D, [2025-04-08T05:20:43.318736 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:43.320813 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 6
+I, [2025-04-08T05:20:43.324749 #1]  INFO -- : Started GET "/web_test/welcome.6" for 192.168.1.111 at 2025-04-08 05:20:43 +0000
+D, [2025-04-08T05:20:43.331759 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:43.334078 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:45.365214 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 05:20:45 +0000
+D, [2025-04-08T05:20:45.369336 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:45.370086 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:49.473380 #1]  INFO -- : Started GET "/web_test/welcome/search_din?search=ti" for 192.168.1.111 at 2025-04-08 05:20:49 +0000
+D, [2025-04-08T05:20:49.478562 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:49.478861 #1] DEBUG -- : Pesquisa dos caracteres ti e armazenando pesquisa no redis
+I, [2025-04-08T05:20:49.496689 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 05:20:49 +0000
+D, [2025-04-08T05:20:49.502589 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:49.502831 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:20:55.554049 #1]  INFO -- : Started GET "/web_test/welcome/search_din?search=qual" for 192.168.1.111 at 2025-04-08 05:20:55 +0000
+D, [2025-04-08T05:20:55.558122 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:55.558504 #1] DEBUG -- : Pesquisa dos caracteres qual e armazenando pesquisa no redis
+I, [2025-04-08T05:20:55.569275 #1]  INFO -- : Started GET "/web_test/welcome.5%2F6" for 192.168.1.111 at 2025-04-08 05:20:55 +0000
+D, [2025-04-08T05:20:55.573671 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:20:55.575810 #1] DEBUG -- : Acesso welcome page
+D, [2025-04-08T05:30:18.307560 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:30:18.342101 #1] DEBUG -- : Acesso welcome page
+D, [2025-04-08T05:31:58.782094 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:31:58.821133 #1] DEBUG -- : Acesso welcome page
+D, [2025-04-08T05:51:25.001628 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:51:25.084939 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:51:28.576203 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 05:51:28 +0000
+D, [2025-04-08T05:51:28.579972 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:51:28.580256 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T05:51:29.247687 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 05:51:29 +0000
+D, [2025-04-08T05:51:29.251828 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T05:51:29.252109 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T06:11:07.230646 #1]  INFO -- : Started GET "/" for 192.168.1.111 at 2025-04-08 06:11:07 +0000
+D, [2025-04-08T06:11:08.077195 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T06:11:08.077583 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T06:11:09.915821 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.111 at 2025-04-08 06:11:09 +0000
+D, [2025-04-08T06:11:09.921173 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T06:11:09.921498 #1] DEBUG -- : Acesso create page
+I, [2025-04-08T06:11:18.479211 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.111 at 2025-04-08 06:11:18 +0000
+D, [2025-04-08T06:11:18.483716 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T06:11:18.483977 #1] DEBUG -- : Acesso create page
+D, [2025-04-08T22:23:27.359291 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:23:27.445786 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:23:27.628290 #1]  INFO -- : Started GET "/favicon.ico" for 192.168.1.111 at 2025-04-08 22:23:27 +0000
+I, [2025-04-08T22:25:10.910125 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.111 at 2025-04-08 22:25:10 +0000
+D, [2025-04-08T22:25:10.915077 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:25:10.915345 #1] DEBUG -- : Acesso create page
+I, [2025-04-08T22:25:23.352276 #1]  INFO -- : Started POST "/web_test/welcome/create_dynamic" for 192.168.1.111 at 2025-04-08 22:25:23 +0000
+D, [2025-04-08T22:25:23.385228 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:25:23.385475 #1] DEBUG -- : Começo do fluxo do create_dynamic
+D, [2025-04-08T22:25:23.385898 #1] DEBUG -- : Parametros tratados para criar usuário: {:name=>"qualquer", :description=>"desc", :note=>"3", :comment=>"comenta"}
+D, [2025-04-08T22:25:23.403145 #1] DEBUG -- : Verificando se o nome existe: 
+D, [2025-04-08T22:25:23.521799 #1] DEBUG -- : Dinamica id criada com sucesso: 1
+D, [2025-04-08T22:25:23.568825 #1] DEBUG -- : Review criada para dinamica id:1, redirecionando welcome_path
+D, [2025-04-08T22:25:23.568893 #1] DEBUG -- : Fim do fluxo do create_dynamic
+I, [2025-04-08T22:25:23.573938 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 22:25:23 +0000
+D, [2025-04-08T22:25:23.580559 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:25:23.580980 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:25:36.862150 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.111 at 2025-04-08 22:25:36 +0000
+D, [2025-04-08T22:25:36.866346 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:25:36.866549 #1] DEBUG -- : Acesso create page
+I, [2025-04-08T22:25:53.005087 #1]  INFO -- : Started POST "/web_test/welcome/create_dynamic" for 192.168.1.111 at 2025-04-08 22:25:53 +0000
+D, [2025-04-08T22:25:53.012579 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:25:53.013295 #1] DEBUG -- : Começo do fluxo do create_dynamic
+D, [2025-04-08T22:25:53.014184 #1] DEBUG -- : Parametros tratados para criar usuário: {:name=>"mais uma dinamica", :description=>"desc", :note=>"5", :comment=>"coment"}
+D, [2025-04-08T22:25:53.020079 #1] DEBUG -- : Verificando se o nome existe: 
+D, [2025-04-08T22:25:53.034630 #1] DEBUG -- : Dinamica id criada com sucesso: 2
+D, [2025-04-08T22:25:53.061814 #1] DEBUG -- : Review criada para dinamica id:2, redirecionando welcome_path
+D, [2025-04-08T22:25:53.061909 #1] DEBUG -- : Fim do fluxo do create_dynamic
+I, [2025-04-08T22:25:53.066194 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 22:25:53 +0000
+D, [2025-04-08T22:25:53.069798 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:25:53.070060 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:00.854850 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 22:26:00 +0000
+D, [2025-04-08T22:26:00.859579 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:00.863089 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 1
+I, [2025-04-08T22:26:00.868468 #1]  INFO -- : Started GET "/web_test/welcome.1" for 192.168.1.111 at 2025-04-08 22:26:00 +0000
+D, [2025-04-08T22:26:00.873328 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:00.875862 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:01.619038 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 22:26:01 +0000
+D, [2025-04-08T22:26:01.624221 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:01.638803 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 2
+I, [2025-04-08T22:26:01.643882 #1]  INFO -- : Started GET "/web_test/welcome.2" for 192.168.1.111 at 2025-04-08 22:26:01 +0000
+D, [2025-04-08T22:26:01.649063 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:01.653585 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:02.308089 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 22:26:02 +0000
+D, [2025-04-08T22:26:02.312107 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:02.314408 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 1
+I, [2025-04-08T22:26:02.318307 #1]  INFO -- : Started GET "/web_test/welcome.1" for 192.168.1.111 at 2025-04-08 22:26:02 +0000
+D, [2025-04-08T22:26:02.321878 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:02.323567 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:02.780644 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 22:26:02 +0000
+D, [2025-04-08T22:26:02.784876 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:02.787358 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 1
+I, [2025-04-08T22:26:02.790394 #1]  INFO -- : Started GET "/web_test/welcome.1" for 192.168.1.111 at 2025-04-08 22:26:02 +0000
+D, [2025-04-08T22:26:02.796516 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:02.799591 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:03.291452 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 22:26:03 +0000
+D, [2025-04-08T22:26:03.296520 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:03.299066 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 1
+I, [2025-04-08T22:26:03.302604 #1]  INFO -- : Started GET "/web_test/welcome.1" for 192.168.1.111 at 2025-04-08 22:26:03 +0000
+D, [2025-04-08T22:26:03.306519 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:03.308308 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:03.796107 #1]  INFO -- : Started GET "/web_test/welcome/aleatory_din" for 192.168.1.111 at 2025-04-08 22:26:03 +0000
+D, [2025-04-08T22:26:03.802501 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:03.805745 #1] DEBUG -- : Selecionado dinamica aleatoria de id: 2
+I, [2025-04-08T22:26:03.810633 #1]  INFO -- : Started GET "/web_test/welcome.2" for 192.168.1.111 at 2025-04-08 22:26:03 +0000
+D, [2025-04-08T22:26:03.816275 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:03.818369 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:06.687148 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 22:26:06 +0000
+D, [2025-04-08T22:26:06.691413 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:06.691783 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:09.248972 #1]  INFO -- : Started GET "/web_test/welcome/delete.1" for 192.168.1.111 at 2025-04-08 22:26:09 +0000
+D, [2025-04-08T22:26:09.255018 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:09.257059 #1] DEBUG -- : Acesso delete page, dinamica id:1 selecionada.
+I, [2025-04-08T22:26:10.604433 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 22:26:10 +0000
+D, [2025-04-08T22:26:10.608453 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:10.609385 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:11.563171 #1]  INFO -- : Started GET "/web_test/welcome/update.1" for 192.168.1.111 at 2025-04-08 22:26:11 +0000
+D, [2025-04-08T22:26:11.569744 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:11.573331 #1] DEBUG -- : Acesso update page, dinamica id:1 selecionada.
+I, [2025-04-08T22:26:18.508304 #1]  INFO -- : Started GET "/web_test/welcome/update.2" for 192.168.1.111 at 2025-04-08 22:26:18 +0000
+D, [2025-04-08T22:26:18.512584 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:18.515444 #1] DEBUG -- : Acesso update page, dinamica id:2 selecionada.
+I, [2025-04-08T22:26:27.807912 #1]  INFO -- : Started PATCH "/web_test/welcome/update_dynamic.2" for 192.168.1.111 at 2025-04-08 22:26:27 +0000
+D, [2025-04-08T22:26:27.816868 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:27.820177 #1] DEBUG -- : Começo do fluxo do update_dynamic
+D, [2025-04-08T22:26:27.820506 #1] DEBUG -- : Parametros tratados para atualizar usuário: {:name=>"mais uma dinamica", :description=>"descriç", :note=>"5", :comment=>"tets"}
+D, [2025-04-08T22:26:27.826925 #1] DEBUG -- : Verificando se o nome não existe: 
+D, [2025-04-08T22:26:27.828824 #1] DEBUG -- : Dynamica id selecionada para atualização: 2
+D, [2025-04-08T22:26:27.857475 #1] DEBUG -- : Dynamica id atualizada: 2
+D, [2025-04-08T22:26:27.893886 #1] DEBUG -- : Criado uma nova review para dynamica id: 2, redirecionando welcome_path
+D, [2025-04-08T22:26:27.893939 #1] DEBUG -- : Fim do fluxo do update_dynamic
+I, [2025-04-08T22:26:27.899915 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 22:26:27 +0000
+D, [2025-04-08T22:26:27.905381 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:27.905570 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:29.495855 #1]  INFO -- : Started GET "/web_test/welcome/update.2" for 192.168.1.111 at 2025-04-08 22:26:29 +0000
+D, [2025-04-08T22:26:29.500879 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:29.503053 #1] DEBUG -- : Acesso update page, dinamica id:2 selecionada.
+I, [2025-04-08T22:26:37.172740 #1]  INFO -- : Started PATCH "/web_test/welcome/update_dynamic.2" for 192.168.1.111 at 2025-04-08 22:26:37 +0000
+D, [2025-04-08T22:26:37.178731 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:37.181782 #1] DEBUG -- : Começo do fluxo do update_dynamic
+D, [2025-04-08T22:26:37.182241 #1] DEBUG -- : Parametros tratados para atualizar usuário: {:name=>"mais uma dinamica", :description=>"descriçao", :note=>"1", :comment=>"com"}
+D, [2025-04-08T22:26:37.190157 #1] DEBUG -- : Verificando se o nome não existe: 
+D, [2025-04-08T22:26:37.192760 #1] DEBUG -- : Dynamica id selecionada para atualização: 2
+D, [2025-04-08T22:26:37.199275 #1] DEBUG -- : Dynamica id atualizada: 2
+D, [2025-04-08T22:26:37.206401 #1] DEBUG -- : Criado uma nova review para dynamica id: 2, redirecionando welcome_path
+D, [2025-04-08T22:26:37.206447 #1] DEBUG -- : Fim do fluxo do update_dynamic
+I, [2025-04-08T22:26:37.211885 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 22:26:37 +0000
+D, [2025-04-08T22:26:37.217963 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:37.231590 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T22:26:39.116732 #1]  INFO -- : Started GET "/web_test/welcome/update.2" for 192.168.1.111 at 2025-04-08 22:26:39 +0000
+D, [2025-04-08T22:26:39.121103 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T22:26:39.123160 #1] DEBUG -- : Acesso update page, dinamica id:2 selecionada.
+I, [2025-04-08T23:07:28.482607 #1]  INFO -- : Started GET "/" for 192.168.1.111 at 2025-04-08 23:07:28 +0000
+D, [2025-04-08T23:07:28.488313 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T23:07:28.488609 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T23:07:31.516649 #1]  INFO -- : Started GET "/web_test/welcome/update.1" for 192.168.1.111 at 2025-04-08 23:07:31 +0000
+D, [2025-04-08T23:07:31.521498 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T23:07:31.524521 #1] DEBUG -- : Acesso update page, dinamica id:1 selecionada.
+I, [2025-04-08T23:11:02.237922 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.111 at 2025-04-08 23:11:02 +0000
+D, [2025-04-08T23:11:02.245252 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T23:11:02.245795 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T23:31:29.559449 #1]  INFO -- : Started GET "/" for 192.168.1.111 at 2025-04-08 23:31:29 +0000
+D, [2025-04-08T23:31:29.566032 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T23:31:29.566390 #1] DEBUG -- : Acesso welcome page
+I, [2025-04-08T23:31:38.604513 #1]  INFO -- : Started GET "/web_test/welcome/update.1" for 192.168.1.111 at 2025-04-08 23:31:38 +0000
+D, [2025-04-08T23:31:38.609043 #1] DEBUG -- : Log ativado!!!
+D, [2025-04-08T23:31:38.611339 #1] DEBUG -- : Acesso update page, dinamica id:1 selecionada.
+D, [2025-05-02T15:49:00.505730 #1] DEBUG -- : Log ativado!!!
+D, [2025-05-02T15:49:00.536773 #1] DEBUG -- : Log ativado!!!
+D, [2025-05-02T15:49:01.182145 #1] DEBUG -- : Acesso welcome page
+D, [2025-05-02T15:49:01.182416 #1] DEBUG -- : Acesso welcome page
+I, [2025-05-02T15:49:02.193638 #1]  INFO -- : Started GET "/favicon.ico" for 192.168.1.250 at 2025-05-02 15:49:02 +0000
+I, [2025-05-02T15:52:35.700989 #1]  INFO -- : Started GET "/" for 192.168.1.250 at 2025-05-02 15:52:35 +0000
+D, [2025-05-02T15:52:35.705849 #1] DEBUG -- : Log ativado!!!
+D, [2025-05-02T15:52:35.706100 #1] DEBUG -- : Acesso welcome page
+I, [2025-05-02T15:54:43.134907 #1]  INFO -- : Started GET "/" for 172.18.0.1 at 2025-05-02 15:54:43 +0000
+D, [2025-05-02T15:54:43.141945 #1] DEBUG -- : Log ativado!!!
+D, [2025-05-02T15:54:43.142178 #1] DEBUG -- : Acesso welcome page
+I, [2025-05-02T15:54:43.230447 #1]  INFO -- : Started GET "/favicon.ico" for 172.18.0.1 at 2025-05-02 15:54:43 +0000
+I, [2025-05-02T15:55:21.870432 #1]  INFO -- : Started GET "/" for 192.168.1.250 at 2025-05-02 15:55:21 +0000
+D, [2025-05-02T15:55:21.875576 #1] DEBUG -- : Log ativado!!!
+D, [2025-05-02T15:55:21.875926 #1] DEBUG -- : Acesso welcome page
+I, [2025-05-02T15:55:21.954834 #1]  INFO -- : Started GET "/favicon.ico" for 192.168.1.250 at 2025-05-02 15:55:21 +0000
+I, [2025-05-02T15:55:26.976977 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.250 at 2025-05-02 15:55:26 +0000
+D, [2025-05-02T15:55:26.981978 #1] DEBUG -- : Log ativado!!!
+D, [2025-05-02T15:55:26.982228 #1] DEBUG -- : Acesso create page
+I, [2025-05-02T15:57:43.758191 #1]  INFO -- : Started GET "/" for 172.18.0.1 at 2025-05-02 15:57:43 +0000
+D, [2025-05-02T15:57:43.815310 #1] DEBUG -- : Log ativado!!!
+D, [2025-05-02T15:57:43.816193 #1] DEBUG -- : Acesso welcome page
+D, [2025-06-08T20:39:31.941899 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:39:32.050641 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:39:32.227228 #1]  INFO -- : Started GET "/favicon.ico" for 192.168.1.100 at 2025-06-08 20:39:32 +0000
+I, [2025-06-08T20:39:39.107641 #1]  INFO -- : Started GET "/" for 192.168.1.100 at 2025-06-08 20:39:39 +0000
+D, [2025-06-08T20:39:39.114492 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:39:39.115168 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:39:41.032694 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.100 at 2025-06-08 20:39:41 +0000
+D, [2025-06-08T20:39:41.038535 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:39:41.038850 #1] DEBUG -- : Acesso create page
+I, [2025-06-08T20:39:49.338492 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:39:49 +0000
+D, [2025-06-08T20:39:49.342888 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:39:49.343512 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:39:50.316583 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:39:50 +0000
+D, [2025-06-08T20:39:50.320686 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:39:50.321179 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:40:00.370421 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.100 at 2025-06-08 20:40:00 +0000
+D, [2025-06-08T20:40:00.378131 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:00.379987 #1] DEBUG -- : Acesso create page
+I, [2025-06-08T20:40:09.084655 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.100 at 2025-06-08 20:40:09 +0000
+D, [2025-06-08T20:40:09.088941 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:09.089523 #1] DEBUG -- : Acesso create page
+I, [2025-06-08T20:40:23.025389 #1]  INFO -- : Started POST "/web_test/welcome/create_dynamic" for 192.168.1.100 at 2025-06-08 20:40:23 +0000
+D, [2025-06-08T20:40:23.029588 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:23.031821 #1] DEBUG -- : Começo do fluxo do create_dynamic
+D, [2025-06-08T20:40:23.032487 #1] DEBUG -- : Parametros tratados para criar usuário: {:name=>"qualquer", :description=>"teste", :note=>"4", :comment=>"fhfghgfh"}
+D, [2025-06-08T20:40:23.045707 #1] DEBUG -- : Verificando se o nome existe: 
+D, [2025-06-08T20:40:23.072744 #1] DEBUG -- : Dinamica id criada com sucesso: 1
+D, [2025-06-08T20:40:23.153258 #1] DEBUG -- : Review criada para dinamica id:1, redirecionando welcome_path
+D, [2025-06-08T20:40:23.153423 #1] DEBUG -- : Fim do fluxo do create_dynamic
+I, [2025-06-08T20:40:23.159515 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:40:23 +0000
+D, [2025-06-08T20:40:23.165937 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:23.166460 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:40:37.083577 #1]  INFO -- : Started GET "/web_test/welcome/create" for 192.168.1.100 at 2025-06-08 20:40:37 +0000
+D, [2025-06-08T20:40:37.087896 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:37.089678 #1] DEBUG -- : Acesso create page
+I, [2025-06-08T20:40:45.474371 #1]  INFO -- : Started POST "/web_test/welcome/create_dynamic" for 192.168.1.100 at 2025-06-08 20:40:45 +0000
+D, [2025-06-08T20:40:45.480271 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:45.480593 #1] DEBUG -- : Começo do fluxo do create_dynamic
+D, [2025-06-08T20:40:45.480919 #1] DEBUG -- : Parametros tratados para criar usuário: {:name=>"qualquer mais uma", :description=>"tretretretret", :note=>"3", :comment=>"rtretert"}
+D, [2025-06-08T20:40:45.488901 #1] DEBUG -- : Verificando se o nome existe: 
+D, [2025-06-08T20:40:45.519525 #1] DEBUG -- : Dinamica id criada com sucesso: 2
+D, [2025-06-08T20:40:45.554221 #1] DEBUG -- : Review criada para dinamica id:2, redirecionando welcome_path
+D, [2025-06-08T20:40:45.554309 #1] DEBUG -- : Fim do fluxo do create_dynamic
+I, [2025-06-08T20:40:45.562783 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:40:45 +0000
+D, [2025-06-08T20:40:45.568979 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:45.569407 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:40:46.905260 #1]  INFO -- : Started GET "/web_test/welcome/update.1" for 192.168.1.100 at 2025-06-08 20:40:46 +0000
+D, [2025-06-08T20:40:46.909738 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:46.918278 #1] DEBUG -- : Acesso update page, dinamica id:1 selecionada.
+I, [2025-06-08T20:40:57.759456 #1]  INFO -- : Started PATCH "/web_test/welcome/update_dynamic.1" for 192.168.1.100 at 2025-06-08 20:40:57 +0000
+D, [2025-06-08T20:40:57.766767 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:57.772323 #1] DEBUG -- : Começo do fluxo do update_dynamic
+D, [2025-06-08T20:40:57.772764 #1] DEBUG -- : Parametros tratados para atualizar usuário: {:name=>"qualquer", :description=>"teste", :note=>"3", :comment=>"sdfdsfsdfdsf"}
+D, [2025-06-08T20:40:57.785494 #1] DEBUG -- : Verificando se o nome não existe: 
+D, [2025-06-08T20:40:57.790609 #1] DEBUG -- : Dynamica id selecionada para atualização: 1
+D, [2025-06-08T20:40:57.791653 #1] DEBUG -- : Dynamica id atualizada: 1
+D, [2025-06-08T20:40:57.808862 #1] DEBUG -- : Criado uma nova review para dynamica id: 1, redirecionando welcome_path
+D, [2025-06-08T20:40:57.808972 #1] DEBUG -- : Fim do fluxo do update_dynamic
+I, [2025-06-08T20:40:57.818386 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:40:57 +0000
+D, [2025-06-08T20:40:57.821662 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:40:57.821948 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:41:02.863524 #1]  INFO -- : Started GET "/web_test/welcome/update.1" for 192.168.1.100 at 2025-06-08 20:41:02 +0000
+D, [2025-06-08T20:41:02.871691 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:02.876315 #1] DEBUG -- : Acesso update page, dinamica id:1 selecionada.
+I, [2025-06-08T20:41:20.420365 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:41:20 +0000
+D, [2025-06-08T20:41:20.426525 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:20.427849 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:41:28.719544 #1]  INFO -- : Started GET "/web_test/welcome/search_din?search=qualquer" for 192.168.1.100 at 2025-06-08 20:41:28 +0000
+D, [2025-06-08T20:41:28.725478 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:28.725831 #1] DEBUG -- : Pesquisa dos caracteres qualquer e armazenando pesquisa no redis
+I, [2025-06-08T20:41:28.793657 #1]  INFO -- : Started GET "/web_test/welcome.1%2F2" for 192.168.1.100 at 2025-06-08 20:41:28 +0000
+D, [2025-06-08T20:41:28.797596 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:28.803738 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:41:37.360718 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:41:37 +0000
+D, [2025-06-08T20:41:37.364531 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:37.364832 #1] DEBUG -- : Acesso welcome page
+I, [2025-06-08T20:41:39.313640 #1]  INFO -- : Started GET "/web_test/welcome/delete.1" for 192.168.1.100 at 2025-06-08 20:41:39 +0000
+D, [2025-06-08T20:41:39.320418 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:39.324654 #1] DEBUG -- : Acesso delete page, dinamica id:1 selecionada.
+I, [2025-06-08T20:41:41.761504 #1]  INFO -- : Started DELETE "/web_test/welcome/delete_dynamic.1" for 192.168.1.100 at 2025-06-08 20:41:41 +0000
+D, [2025-06-08T20:41:41.767761 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:41.774297 #1] DEBUG -- : Começo do fluxo do delete_dynamic
+D, [2025-06-08T20:41:41.818592 #1] DEBUG -- : Todas as Reviews da dinamica id: 1 apagados
+D, [2025-06-08T20:41:41.818703 #1] DEBUG -- : Apagando a dinamica id:1
+D, [2025-06-08T20:41:41.832528 #1] DEBUG -- : Dinamica apagada, redirecionando welcome_path
+D, [2025-06-08T20:41:41.832595 #1] DEBUG -- : Fim do fluxo do delete_dynamic
+I, [2025-06-08T20:41:41.841418 #1]  INFO -- : Started GET "/web_test/welcome" for 192.168.1.100 at 2025-06-08 20:41:41 +0000
+D, [2025-06-08T20:41:41.845050 #1] DEBUG -- : Log ativado!!!
+D, [2025-06-08T20:41:41.845413 #1] DEBUG -- : Acesso welcome page
