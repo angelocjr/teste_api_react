@@ -1,0 +1,83 @@
+<div>
+  <% if @dynamics.present? %>
+    <div class='flex-center'>
+      <%=form_with(url: web_test_welcome_search_din_path, method: :get, class: 'search') do |form|%>
+        <div>
+          <p>
+            <%= form.text_field :search, placeholder: 'Procurar!!!' %>
+            <button type="submit"><i> 🔍 </i></button>
+          </p>
+        </div>
+      <%end%>
+    </div>
+  <% end %>
+  <table class='table-body'>
+    <tr role="row">
+        <th>
+          Nome
+        </th>
+        <th>
+          Avaliação
+        </th>
+      <th>
+        <div class='flex-center'>
+          <span><%= link_to '+', web_test_welcome_create_path, method: :get %></span>
+        </div>
+      </th>
+    </tr>
+    <% if @dynamics.present? %>
+      <% @dynamics.each do |dynamic|%>
+        <tr>
+          <td><%= dynamic.name %></td>
+          <td>
+            <% media(dynamic).times do %>
+              ⭐
+            <% end %>
+          </td>
+          <td>
+            <div class='flex-center'>
+              <span><%= link_to 'Up', web_test_welcome_update_path(dynamic.id), method: :get%></span>
+              <span><%= link_to 'Del', web_test_welcome_delete_path(dynamic.id), method: :get%></span>
+            </div>
+          </td>
+        </tr>
+      <%end%>
+    <%else%>
+      <tr><td colspan="3"><%= 'Não existem dinamicas' %></td></tr>
+    <%end%>
+  </table>
+  <% if @dynamics.present? %>
+    <div class='flex-center'>
+      <span class='button-aleat'>
+        <%= link_to 'Dinâmica Aleatória', web_test_welcome_aleatory_din_path, method: :get%>
+      </span>
+    </div>
+  <% end %>
+  
+  <table class='table-body'>
+    <tr role="row">
+      <th colspan = "2"> Lista de participantes </th>
+    </tr>
+    <tr>
+      <th>
+        Id
+      </th>
+      <th>
+        Login
+      </th>
+    </tr>
+    <% @list_users.each do |user|%>
+      <tr>
+        <th>
+          <%= user[:id] %>
+        </th>
+        <th>
+          <%= user[:login] %>
+        </th>
+      </tr>
+    <% end %>
+  </table>
+    
+
+
+</div>
