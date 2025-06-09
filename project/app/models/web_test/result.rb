@@ -1,4 +1,4 @@
-class WebTest::Review < ApplicationRecord
+class WebTest::Result < ApplicationRecord
   belongs_to :benchmark, class_name: 'WebTest::Benchmark'
 
   def self.create_result(benchmark, params)

@@ -1,0 +1,40 @@
+# Ignore arquivos temporários do sistema
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Pastas padrão do Rails
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Arquivos de configuração sensíveis
+/config/master.key
+/config/credentials.yml.enc
+
+# Banco de dados SQLite (se usar)
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Pastas do bundler
+/vendor/bundle
+
+# Node (se tiver front-end)
+/node_modules
+/yarn-error.log
+
+# Docker volumes/montagens locais
+*.pid
+.byebug_history
+
+# VSCode
+.vscode/
+
+# Arquivos do sistema
+*.env
+.env*
+.envrc

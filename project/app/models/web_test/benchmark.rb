@@ -1,9 +1,9 @@
 class WebTest::Benchmark < ApplicationRecord
-  has_many :results, class_name: 'WebTest::Result'
+  has_many :web_test_results, class_name: 'WebTest::Result'
 
   def self.create_benchmark(params)
     self.create!(
-      name: params[:name]
+      name_benchmark: params[:name]
     )
   end
 
