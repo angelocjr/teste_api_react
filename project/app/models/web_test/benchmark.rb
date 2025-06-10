@@ -1,5 +1,5 @@
 class WebTest::Benchmark < ApplicationRecord
-  has_many :web_test_results, class_name: 'WebTest::Result'
+  has_many :web_test_results, class_name: 'WebTest::Result', dependent: :destroy
 
   def self.create_benchmark(params)
     self.create!(

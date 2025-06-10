@@ -7,25 +7,25 @@
 Thumbs.db
 
 # Pastas padrão do Rails
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+project/log/*
+project/tmp/*
+!project/log/.keep
+!project/tmp/.keep
 
 # Arquivos de configuração sensíveis
-/config/master.key
-/config/credentials.yml.enc
+project/config/master.key
+project/config/credentials.yml.enc
 
 # Banco de dados SQLite (se usar)
-/db/*.sqlite3
-/db/*.sqlite3-journal
+project/db/*.sqlite3
+project/db/*.sqlite3-journal
 
 # Pastas do bundler
-/vendor/bundle
+project/vendor/bundle
 
 # Node (se tiver front-end)
-/node_modules
-/yarn-error.log
+project/node_modules
+project/yarn-error.log
 
 # Docker volumes/montagens locais
 *.pid
