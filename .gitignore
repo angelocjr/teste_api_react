@@ -8,8 +8,8 @@ Thumbs.db
 
 # Pastas padrão do Rails
 project/log/*
-project/tmp/*
 !project/log/.keep
+project/tmp/*
 !project/tmp/.keep
 
 # Arquivos de configuração sensíveis
