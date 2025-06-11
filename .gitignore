@@ -27,6 +27,10 @@ project/vendor/bundle
 project/node_modules
 project/yarn-error.log
 
+# Node e front-end React (no diretório frontend)
+frontend/node_modules
+frontend/yarn-error.log
+
 # Docker volumes/montagens locais
 *.pid
 .byebug_history

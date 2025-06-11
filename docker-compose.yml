@@ -40,6 +40,18 @@ services:
       - DATABASE_URL=postgres://postgres:entrevista@db:5432/development
       - REDIS_URL=redis://redis:6379/0
 
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: entrevista_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+
   sidekiq:
     build: 
       context: .
