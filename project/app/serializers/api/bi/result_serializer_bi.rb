@@ -1,5 +1,5 @@
-# app/serializers/result_serializer.rb
-class ResultSerializerBI < ResultSerializer
+# app/serializers/api/bi/result_serializer_bi.rb
+class Api::Bi::ResultSerializerBI < Api::ResultSerializerBi
   attributes(
     :average_case_rate,
     :max_death_case,

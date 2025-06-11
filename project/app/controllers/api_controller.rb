@@ -1,5 +1,5 @@
 require 'logger'
-class WebTestController < ApplicationController
+class ApiController < ApplicationController
   layout 'web_test'
 
   def error_name_exist?(model, parameters)
