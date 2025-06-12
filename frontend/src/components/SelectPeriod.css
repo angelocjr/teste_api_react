@@ -1,0 +1,15 @@
+.comparacao-datas {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  text-align: center;
+}
+
+.campo-data {
+  margin:5%
+}
+

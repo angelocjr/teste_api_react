@@ -1,0 +1,14 @@
+.tabela-wrapper-r {
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+.grupo-campos {
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
