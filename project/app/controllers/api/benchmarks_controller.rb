@@ -83,6 +83,10 @@ class Api::BenchmarksController < ApiController
     number = 0 
     total = 0
     data.each do |key, value|
+      puts number
+      puts value
+      puts "total: #{total}"
+      number_ini = value if number == 0
       number == 0 ? number = value : total += (value - number)
     end
     return total

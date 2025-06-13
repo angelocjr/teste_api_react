@@ -1,5 +1,6 @@
 # app/controllers/api/results_controller.rb
 class Api::ResultsController < ApiController
+  skip_before_action :verify_authenticity_token
   before_action :set_model
 
   def initialize
@@ -7,9 +8,7 @@ class Api::ResultsController < ApiController
   end
 
   def index
-    puts "indexR---------------#{params[:benchmark_id]}"
     data = set_model.where(benchmark_id: params[:benchmark_id])
-    puts "#{data.inspect}"
     render_serializer(data)
   end
 
