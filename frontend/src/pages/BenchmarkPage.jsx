@@ -33,9 +33,8 @@ function BenchmarkPage() {
           const endDate = new Date(period.end);
 
           for (const [date, value] of Object.entries(timeline)) {
-            // disease.sh usa datas no formato MM/DD/YY, então converter para Date:
             const [month, day, year] = date.split('/');
-            const fullYear = 2000 + parseInt(year, 10); // ex: '21' vira 2021
+            const fullYear = 2000 + parseInt(year, 10); 
             const formattedDate = new Date(fullYear, month - 1, day);
 
             if (formattedDate >= startDate && formattedDate <= endDate) {
@@ -59,7 +58,6 @@ function BenchmarkPage() {
       console.log('data1', data1);
       console.log('data2', data2);
 
-      // Ajuste o benchmarkId conforme seu backend
       const benchmarkId = 1;
 
       await fetch(`/api/benchmarks/${benchmarkId}/results`, {
@@ -92,7 +90,7 @@ function BenchmarkPage() {
           <button type='submit'>Salvar 💾</button>
         </div>
       </form>
-      <Search search={search} setSearch={setSearch} />
+      {/* <Search search={search} setSearch={setSearch} /> */}
       <ViewBenchmarks country={country} period={period} search={search} />
       <ViewResults country={country} period={period} search={search} />
     </div>

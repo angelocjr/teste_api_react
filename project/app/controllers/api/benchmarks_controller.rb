@@ -28,6 +28,7 @@ class Api::BenchmarksController < ApiController
   end
 
   def destroy
+    puts 'destroyB---------------'
     data = model_result.find(params[:id])
     data.destroy
     head :no_content
