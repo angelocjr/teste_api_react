@@ -60,7 +60,7 @@ function BenchmarkPage() {
 
       const benchmarkId = 1;
 
-      await fetch(`/api/benchmarks/${benchmarkId}/results`, {
+      await fetch(`/api/benchmarks`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -92,10 +92,9 @@ function BenchmarkPage() {
       </form>
       {/* <Search search={search} setSearch={setSearch} /> */}
       <ViewBenchmarks country={country} period={period} search={search} />
-      <ViewResults country={country} period={period} search={search} />
+	  {/*<ViewResults country={country} period={period} search={search} />*/}
     </div>
   );
 }
 
 export default BenchmarkPage;
-

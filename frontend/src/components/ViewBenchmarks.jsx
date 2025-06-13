@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../components/ViewBenchmarks.css';
+import ViewResults from './ViewResults';
 
 function ViewBenchmarks() {
   const [benchmarks, setBenchmarks] = useState([]);
@@ -22,7 +23,8 @@ function ViewBenchmarks() {
       if (!res.ok) throw new Error("Erro ao buscar resultados");
       const json = await res.json();
 
-      setSelectedResults(json.data); 
+      setSelectedResults(json.data);
+      console.log(json.data);
       setSelectedBenchmark(benchmarks.find(b => b.id === benchmarkId));
     } catch (error) {
       console.error(error);
@@ -73,6 +75,9 @@ function ViewBenchmarks() {
           ))}
         </tbody>
       </table>
+       {selectedResults.length > 0 && (
+        <ViewResults results={selectedResults} />
+      )}
     </div>
   );
 }
