@@ -7,11 +7,13 @@ class Api::ResultsController < ApiController
   end
 
   def index
+    puts 'indexR---------------'
     data = set_model.all
     render_serializer(data)
   end
 
   def show
+    puts 'showR---------------'
     data = set_model.find(params[:id])
     render_serializer(data)
   end

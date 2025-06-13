@@ -58,7 +58,9 @@ function BenchmarkPage() {
       console.log('data1', data1);
       console.log('data2', data2);
 
-      await fetch(`/api/benchmarks`, {
+      const benchmarkId = 1;
+
+      await fetch(`/api/benchmarks/${benchmarkId}/results`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -88,7 +90,7 @@ function BenchmarkPage() {
           <button type='submit'>Salvar 💾</button>
         </div>
       </form>
-      <Search search={search} setSearch={setSearch} />
+      {/* <Search search={search} setSearch={setSearch} /> */}
       <ViewBenchmarks country={country} period={period} search={search} />
       <ViewResults country={country} period={period} search={search} />
     </div>

@@ -78,6 +78,7 @@ gem "rake"
 #end
 #serializer para JSON
 gem "jsonapi-serializer"
+gem "rack-cors"
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
