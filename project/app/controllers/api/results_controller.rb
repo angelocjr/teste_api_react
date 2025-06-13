@@ -7,13 +7,13 @@ class Api::ResultsController < ApiController
   end
 
   def index
-    puts 'indexR---------------'
-    data = set_model.all
+    puts "indexR---------------#{params[:benchmark_id]}"
+    data = set_model.where(benchmark_id: params[:benchmark_id])
+    puts "#{data.inspect}"
     render_serializer(data)
   end
 
   def show
-    puts 'showR---------------'
     data = set_model.find(params[:id])
     render_serializer(data)
   end

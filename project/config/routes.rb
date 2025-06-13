@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   #ROUTES APP
   namespace :api do
     post 'benchmarks/create', to: 'benchmarks#create'
+    delete 'benchmarks/destroy', to: 'benchmarks#destroy'
     resources :benchmarks do
       resources :results
     end

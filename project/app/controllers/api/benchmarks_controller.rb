@@ -8,13 +8,12 @@ class Api::BenchmarksController < ApiController
   end
 
   def index
-    puts 'index'
     data = set_model.all
     render_serializer(data)
   end
 
   def show
-    data = set_model.find(params[:id])
+    data = get_benchmark_by_id(params[:id])
     render_serializer(data)
   end
 
@@ -34,19 +33,22 @@ class Api::BenchmarksController < ApiController
   end
 
   def update
-    data = set_model.find(params[:id])
+    data = get_benchmark_by_id(params[:id])
     data.update!(benchmark_params)
     render_serializer(data)
   end
 
   def destroy
-    puts 'destroyB---------------'
-    data = model_result.find(params[:id])
-    data.destroy
+    data = get_benchmark_by_id(params[:id])
+    set_model.delete_benchmark(data)
     head :no_content
   end
 
   private
+
+  def get_benchmark_by_id(id)
+    return set_model.find(id)
+  end
 
   def get_data_param
       cases1 = params['covid_data_1']['cases']
