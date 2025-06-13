@@ -3,7 +3,7 @@ class WebTest::Benchmark < ApplicationRecord
 
   def self.create_benchmark(params)
     self.create!(
-      name_benchmark: params[:name]
+      name_benchmark: params[:name_benchmark]
     )
   end
 

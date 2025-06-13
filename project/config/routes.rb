@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   #ROUTES APP
   namespace :api do
+    post 'benchmarks/create', to: 'benchmarks#create'
     resources :benchmarks do
       resources :results
     end

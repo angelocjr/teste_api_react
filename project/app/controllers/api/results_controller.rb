@@ -18,9 +18,9 @@ class Api::ResultsController < ApiController
     render_serializer(data)
   end
 
-  def create
-    data = set_model.create!(result_params)
-    render_serializer(data)
+  def create(params, benchmark)
+    set_name(params)
+    set_model.create_result(params, benchmark) unless set_model.find_by(name_result: params[:name_result])
   end
 
   def update
@@ -36,6 +36,10 @@ class Api::ResultsController < ApiController
   end
 
   private
+  
+  def set_name(params)
+    params[:name_result] = "#{params[:start_date]} a #{params[:end_date]}"
+  end
 
   def set_model
     return WebTest::Result
@@ -43,19 +47,5 @@ class Api::ResultsController < ApiController
 
   def render_serializer(data)
     render json: Api::ResultSerializer.new(data).serializable_hash.to_json
-  end
-
-  def result_params
-    params.require(:result).permit(
-      :name_result,
-      :country_first,
-      :total_case_first,
-      :death_case_first,
-      :country_last,
-      :total_case_last,
-      :death_case_last,
-      :initial_date,
-      :finish_date
-    )
   end
 end
